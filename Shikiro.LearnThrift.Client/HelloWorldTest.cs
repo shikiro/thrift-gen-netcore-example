@@ -24,7 +24,7 @@ namespace Shikiro.LearnThrift.Client
                         {
                             using (var client = new IHelloWorldService.Client(protocol))
                             {
-                                transport.OpenAsync();
+                                transport.OpenAsync().Wait();
                                 client.HelloWorldAsync(cancellationToken).Wait();
                             }
                         }
