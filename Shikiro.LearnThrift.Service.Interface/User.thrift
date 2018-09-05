@@ -1,4 +1,4 @@
-﻿namespace csharp Shikiro.LearnThrift.Service.Interface.User
+﻿namespace netcore Shikiro.LearnThrift.Service.Interface.User
 
 service IUserService{
 	list<User> GetAll()

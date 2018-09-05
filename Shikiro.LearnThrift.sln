@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shikiro.LearnThrift.Service.Interface", "Shikiro.LearnThrift.Service.Interface\Shikiro.LearnThrift.Service.Interface.csproj", "{7968ECB2-9C98-488A-80E3-FD60257555CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shikiro.LearnThrift.Service.Implementation", "Shikiro.LearnThrift.Service.Implementation\Shikiro.LearnThrift.Service.Implementation.csproj", "{FD0FC8F9-14F2-446A-A73E-B7FE3930FC17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shikiro.LearnThrift.Server", "Shikiro.LearnThrift.Server\Shikiro.LearnThrift.Server.csproj", "{CF1D3E91-29C5-445B-80BF-AEDC25FD5B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shikiro.LearnThrift.Client", "Shikiro.LearnThrift.Client\Shikiro.LearnThrift.Client.csproj", "{424CE4FB-CBDC-4A75-8965-815643B1DF8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7968ECB2-9C98-488A-80E3-FD60257555CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7968ECB2-9C98-488A-80E3-FD60257555CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7968ECB2-9C98-488A-80E3-FD60257555CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7968ECB2-9C98-488A-80E3-FD60257555CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0FC8F9-14F2-446A-A73E-B7FE3930FC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0FC8F9-14F2-446A-A73E-B7FE3930FC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0FC8F9-14F2-446A-A73E-B7FE3930FC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0FC8F9-14F2-446A-A73E-B7FE3930FC17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1D3E91-29C5-445B-80BF-AEDC25FD5B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1D3E91-29C5-445B-80BF-AEDC25FD5B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1D3E91-29C5-445B-80BF-AEDC25FD5B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1D3E91-29C5-445B-80BF-AEDC25FD5B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424CE4FB-CBDC-4A75-8965-815643B1DF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424CE4FB-CBDC-4A75-8965-815643B1DF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424CE4FB-CBDC-4A75-8965-815643B1DF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424CE4FB-CBDC-4A75-8965-815643B1DF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C30D16D-8A12-4731-BDE1-A1B9A5BBC83D}
+	EndGlobalSection
+EndGlobal
